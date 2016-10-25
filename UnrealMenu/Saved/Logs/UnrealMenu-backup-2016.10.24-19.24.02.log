@@ -1,0 +1,720 @@
+﻿Log file open, 10/24/16 17:42:09
+LogInit:Display: Running engine for game: UnrealMenu
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-540969182) SRandInit(-540969180).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.063493
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.24-22.42.09:438][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.24-22.42.09:438][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.24-22.42.09:464][  0]LogInit: Computer: WS-GERARDO
+[2016.10.24-22.42.09:464][  0]LogInit: User: gerardo
+[2016.10.24-22.42.09:464][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.24-22.42.09:464][  0]LogInit: High frequency timer resolution =3.507578 MHz
+[2016.10.24-22.42.09:464][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.10.24-22.42.09:464][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.24-22.42.09:464][  0]LogMemory: Process Physical Memory: 191.57 MB used, 191.57 MB peak
+[2016.10.24-22.42.09:464][  0]LogMemory: Process Virtual Memory: 196.97 MB used, 196.97 MB peak
+[2016.10.24-22.42.09:464][  0]LogMemory: Physical Memory: 12432.39 MB used, 16326.10 MB total
+[2016.10.24-22.42.09:464][  0]LogMemory: Virtual Memory: 523.14 MB used, 8388608.00 MB total
+[2016.10.24-22.42.09:892][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.24-22.42.09:994][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 745' (Feature Level 11_0)
+[2016.10.24-22.42.09:994][  0]LogD3D11RHI:       4035/0/7907 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.10.24-22.42.09:994][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.24-22.42.10:004][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.24-22.42.10:005][  0]LogD3D11RHI:     GPU DeviceId: 0x1382 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.24-22.42.10:006][  0]LogWindows: EnumDisplayDevices:
+[2016.10.24-22.42.10:006][  0]LogWindows:    0. 'NVIDIA GeForce GTX 745' (P:1 D:1)
+[2016.10.24-22.42.10:006][  0]LogWindows:    1. 'NVIDIA GeForce GTX 745' (P:0 D:1)
+[2016.10.24-22.42.10:006][  0]LogWindows:    2. 'NVIDIA GeForce GTX 745' (P:0 D:0)
+[2016.10.24-22.42.10:006][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
+[2016.10.24-22.42.10:007][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.10.24-22.42.10:007][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.10.24-22.42.10:007][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2016.10.24-22.42.10:007][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 745
+[2016.10.24-22.42.10:007][  0]LogD3D11RHI:   Driver Version: 368.22 (internal:10.18.13.6822, unified:368.22)
+[2016.10.24-22.42.10:007][  0]LogD3D11RHI:      Driver Date: 5-19-2016
+[2016.10.24-22.42.10:007][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.24-22.42.10:020][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.24-22.42.10:031][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.10.24-22.42.10:031][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Intermediate/Shaders/WorkingDirectory/12168/).
+[2016.10.24-22.42.10:032][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gerardo/AppData/Local/Temp/UnrealShaderWorkingDir/F79DFD8B41C3373F7E8D4BAC733D2113/'.
+[2016.10.24-22.42.10:032][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.24-22.42.11:343][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.24-22.42.11:350][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.24-22.42.11:358][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.24-22.42.11:365][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.24-22.42.11:372][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.24-22.42.11:379][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.24-22.42.11:386][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.24-22.42.11:394][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.24-22.42.11:401][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.24-22.42.11:408][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.24-22.42.11:415][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.24-22.42.11:428][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.24-22.42.11:428][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.24-22.42.11:429][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.24-22.42.11:447][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.24-22.42.11:453][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.24-22.42.11:459][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.24-22.42.11:465][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.24-22.42.11:472][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.24-22.42.11:472][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.24-22.42.11:523][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.24-22.42.14:152][  0]LogDerivedDataCache: Loaded boot cache 2.63s 48MB C:/Users/gerardo/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.24-22.42.14:152][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/gerardo/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.24-22.42.14:152][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.24-22.42.14:152][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.24-22.42.14:152][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.24-22.42.14:152][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.24-22.42.14:167][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.24-22.42.14:178][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gerardo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.24-22.42.14:372][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.24-22.42.14:373][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.24-22.42.14:912][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.24-22.42.14:912][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.24-22.42.14:912][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.24-22.42.17:326][  0]LogAssetRegistry: FAssetRegistry took 0.0199 seconds to start up
+[2016.10.24-22.42.17:391][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.063804 seconds
+[2016.10.24-22.42.17:395][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.10.24-22.42.17:395][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.10.24-22.42.17:395][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.24-22.42.17:399][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.24-22.42.18:262][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.24-22.42.18:262][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.24-22.42.43:896][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.10.24-22.42.43:937][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.24-22.42.45:550][  0]SourceControl: Info Source control is disabled
+[2016.10.24-22.42.45:551][  0]SourceControl: Info Source control is disabled
+[2016.10.24-22.42.45:555][  0]SourceControl: Info Source control is disabled
+[2016.10.24-22.42.45:560][  0]SourceControl: Info Source control is disabled
+[2016.10.24-22.42.45:933][  0]LogEngine: Initializing Engine...
+[2016.10.24-22.42.45:934][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.24-22.42.45:934][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.24-22.42.46:301][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.24-22.42.46:304][  0]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.24-22.42.46:314][  0]LogInit: FAudioDevice initialized.
+[2016.10.24-22.42.46:337][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/gerardo/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.24-22.42.46:343][  0]LogInit: Texture streaming: Enabled
+[2016.10.24-22.42.46:373][  0]LogInit: Transaction tracking system initialized
+[2016.10.24-22.42.46:388][  0]BlueprintLog: New page: Editor Load
+[2016.10.24-22.42.46:455][  0]LocalizationService: Info Localization service is disabled
+[2016.10.24-22.42.46:562][  0]LogConsoleResponse:Display: 
+[2016.10.24-22.42.47:446][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.24-22.42.47:446][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.24-22.42.47:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/' took 0.02s
+[2016.10.24-22.42.47:884][  0]SourceControl: Info Source control is disabled
+[2016.10.24-22.42.47:884][  0]Cmd: MAP LOAD FILE="../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.24-22.42.47:995][  0]LightingResults: New page: Lighting Build
+[2016.10.24-22.42.47:997][  0]MapCheck: New page: Map Check
+[2016.10.24-22.42.47:997][  0]LightingResults: New page: Lighting Build
+[2016.10.24-22.42.52:278][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.24-22.42.52:773][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.24-22.42.52:784][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.24-22.42.52:815][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.871ms to complete.
+[2016.10.24-22.42.52:815][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.931
+[2016.10.24-22.42.53:471][  0]LogCollectionManager: Loaded 0 collections in 0.001178 seconds
+[2016.10.24-22.42.53:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Collections/' took 0.01s
+[2016.10.24-22.42.53:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Developers/gerardo/Collections/' took 0.01s
+[2016.10.24-22.42.53:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Collections/' took 0.01s
+[2016.10.24-22.42.53:641][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.10.24-22.42.53:657][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2062 classes and 375 folders.
+[2016.10.24-22.42.53:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.24-22.42.53:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.24-22.42.53:739][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.10.24-22.42.53:777][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.10.24-22.42.55:713][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.24-22.42.56:080][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.10.24-22.42.56:493][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.24-22.42.56:556][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.24-22.42.56:602][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.10.24-22.42.56:603][  0]LogLoad: Full Startup: 48.91 seconds (BP compile: 0.30 seconds)
+[2016.10.24-22.42.56:603][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.10.24-22.42.56:603][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.10.24-22.42.56:613][  0]LogOcInput: OculusInput pre-init called
+[2016.10.24-22.42.56:649][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.24-22.42.57:436][  0]LogRenderer: Reallocating scene render targets to support 1256x580 (Frame:2).
+[2016.10.24-22.42.57:819][  2]LogAssetRegistry: Asset discovery search completed in 40.5121 seconds
+[2016.10.24-22.42.57:819][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.24-22.42.57:819][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2016.10.24-22.43.36:571][129]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 111 classes and 0 folders.
+[2016.10.24-22.47.26:751][  7]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.10.24-22.47.27:123][  7]BlueprintEditorCompileResults: Info [0319.42] Compile of MP_ServerBrowser successful! [in 363 ms] (/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser)
+[2016.10.24-22.48.04:199][403]LogEditorTransaction: Undo Edit Properties
+[2016.10.24-22.48.05:205][457]Cmd: TRANSACTION UNDO
+[2016.10.24-22.48.05:217][457]LogEditorTransaction: Undo Set Binding
+[2016.10.24-22.50.25:005][585]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.10.24-22.50.25:114][585]BlueprintEditorCompileResults: Info [0497.42] Compile of MP_ServerBrowser successful! [in 108 ms] (/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser)
+[2016.10.24-22.53.35:357][796]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.10.24-22.53.35:446][796]BlueprintEditorCompileResults: Info [0687.74] Compile of MP_ServerBrowser successful! [in 89 ms] (/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser)
+[2016.10.24-22.54.03:897][434]LogSavePackage: Save=46.86ms
+[2016.10.24-22.54.03:897][434]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowserA589E63640AA2931CBF87BBAB0D91532.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.uasset'
+[2016.10.24-22.54.03:901][434]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.uasset
+[2016.10.24-23.05.12:790][125]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.016
+[2016.10.24-23.05.12:819][125]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/MP_Menu] ([1] browsable assets)...
+[2016.10.24-23.05.12:819][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/MP_Menu]
+[2016.10.24-23.05.12:836][125]LogSavePackage: Save=15.99ms
+[2016.10.24-23.05.12:837][125]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_Menu_Auto1E22A78C84287E6293D18BC89DE897DCD.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/MP_Menu_Auto1.uasset'
+[2016.10.24-23.05.12:837][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/MP_Menu_Auto1.uasset
+[2016.10.24-23.05.12:837][125]LogFileHelpers: Auto-saving content packages took 0.019
+[2016.10.24-23.06.53:554][795]LogEditorTransaction: Undo Edit Width Override
+[2016.10.24-23.06.55:724][893]Cmd: TRANSACTION UNDO
+[2016.10.24-23.06.55:724][893]LogEditorTransaction: Undo Move Widget
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/Blueprints/MainMenu/MP_Menu.MP_Menu_C:WidgetTree_12.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_2.WidgetTree_11.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_5:MP_Menu_C_12.WidgetTree_12.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/Blueprints/MainMenu/MP_Menu.MP_Menu_C:WidgetTree_11.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.REINST_MP_ServerBrowser_C_17:WidgetTree.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_5:MP_Menu_C_11.WidgetTree_11.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/Blueprints/MainMenu/MP_Menu.MP_Menu_C:WidgetTree_13.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_1.WidgetTree_10.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/Blueprints/MainMenu/MP_Menu.MP_Menu:WidgetTree.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_4.WidgetTree_6.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_3.WidgetTree_12.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_5.WidgetTree_7.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree_14.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_6.WidgetTree_8.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.REINST_MP_ServerBrowser_C_12:WidgetTree.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_5:MP_Menu_C_13.WidgetTree_13.HorizontalBox_0
+[2016.10.24-23.09.04:949][463]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (Button /Engine/UMG/Editor/Transient.Button_2).  Import failed...
+[2016.10.24-23.09.04:949][463]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_0.HorizontalBoxSlot_0''
+[2016.10.24-23.11.00:537][395]LogEditorTransaction: Undo Move Widget
+[2016.10.24-23.15.47:562][157]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.063
+[2016.10.24-23.15.47:563][157]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/MP_Menu] ([1] browsable assets)...
+[2016.10.24-23.15.47:563][157]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/MP_Menu]
+[2016.10.24-23.15.47:589][157]LogSavePackage: Save=22.83ms
+[2016.10.24-23.15.47:589][157]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_Menu_Auto2C29422BA4FDA2173C0FE829A97C9F12E.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/MP_Menu_Auto2.uasset'
+[2016.10.24-23.15.47:590][157]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/MP_Menu_Auto2.uasset
+[2016.10.24-23.15.47:590][157]LogFileHelpers: Auto-saving content packages took 0.028
+[2016.10.24-23.16.30:925][ 91]BlueprintLog: New page: Compile MP_Menu
+[2016.10.24-23.16.31:013][ 91]BlueprintEditorCompileResults: Info [2063.28] Compile of MP_Menu successful! [in 88 ms] (/Game/Blueprints/MainMenu/MP_Menu.MP_Menu)
+[2016.10.24-23.25.47:738][843]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.015
+[2016.10.24-23.25.47:740][843]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/MP_Menu] ([1] browsable assets)...
+[2016.10.24-23.25.47:740][843]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/MP_Menu]
+[2016.10.24-23.25.47:767][843]LogSavePackage: Save=23.69ms
+[2016.10.24-23.25.47:767][843]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_Menu_Auto34323649444E28DB596C8D1890DF1064E.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/MP_Menu_Auto3.uasset'
+[2016.10.24-23.25.47:768][843]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/MP_Menu_Auto3.uasset
+[2016.10.24-23.25.47:768][843]LogFileHelpers: Auto-saving content packages took 0.029
+[2016.10.24-23.46.57:084][813]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.018
+[2016.10.24-23.46.57:085][813]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/MP_Menu] ([1] browsable assets)...
+[2016.10.24-23.46.57:085][813]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/MP_Menu]
+[2016.10.24-23.46.57:119][813]LogSavePackage: Save=30.09ms
+[2016.10.24-23.46.57:119][813]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_Menu_Auto4313440614FECD68A6B39BCBAE495918E.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/MP_Menu_Auto4.uasset'
+[2016.10.24-23.46.57:120][813]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/MP_Menu_Auto4.uasset
+[2016.10.24-23.46.57:120][813]LogFileHelpers: Auto-saving content packages took 0.035
+[2016.10.24-23.48.50:278][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_FindButton.MP_FindButton:ServerInfo_Text.K2Node_CallFunction_1 or K2Node_CallFunction /Game/Blueprints/MainMenu/MP_Menu.MP_Menu:EventGraph.K2Node_CallFunction_1
+[2016.10.24-23.48.50:278][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_FindButton.MP_FindButton:ServerInfo_Text.K2Node_CallFunction_1 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_1
+[2016.10.24-23.48.50:278][288]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_FindButton.MP_FindButton:ServerInfo_Text.K2Node_CallFunction_1 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1
+[2016.10.24-23.48.50:279][288]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_1.EdGraphPin_27''
+[2016.10.24-23.49.51:843][138]BlueprintLog: New page: Compile MP_Menu
+[2016.10.24-23.49.51:928][138]BlueprintEditorCompileResults: Info [4064.15] Compile of MP_Menu successful! [in 84 ms] (/Game/Blueprints/MainMenu/MP_Menu.MP_Menu)
+[2016.10.24-23.51.09:128][345]BlueprintLog: New page: Compile MP_Menu
+[2016.10.24-23.51.09:221][345]BlueprintEditorCompileResults: Info [4141.44] Compile of MP_Menu successful! [in 93 ms] (/Game/Blueprints/MainMenu/MP_Menu.MP_Menu)
+[2016.10.24-23.56.57:596][520]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.018
+[2016.10.24-23.56.57:597][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/MP_Menu] ([1] browsable assets)...
+[2016.10.24-23.56.57:597][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/MP_Menu]
+[2016.10.24-23.56.57:634][520]LogSavePackage: Save=34.05ms
+[2016.10.24-23.56.57:634][520]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_Menu_Auto52A83E1F9464A9A9CB3B43AA490E5286A.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/MP_Menu_Auto5.uasset'
+[2016.10.24-23.56.57:635][520]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/MP_Menu_Auto5.uasset
+[2016.10.24-23.56.57:635][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/MainMenu_W] ([1] browsable assets)...
+[2016.10.24-23.56.57:635][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/MainMenu_W]
+[2016.10.24-23.56.57:665][520]LogSavePackage: Save=21.42ms
+[2016.10.24-23.56.57:665][520]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MainMenu_W_Auto5DA36FA8A448C7FB2D475C4A9A20D4273.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/MainMenu_W_Auto5.uasset'
+[2016.10.24-23.56.57:666][520]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/MainMenu_W_Auto5.uasset
+[2016.10.24-23.56.57:666][520]LogFileHelpers: Auto-saving content packages took 0.069
+[2016.10.24-23.59.48:362][138]BlueprintLog: New page: Compile MainMenu_W
+[2016.10.24-23.59.48:446][138]BlueprintEditorCompileResults: Info [4660.66] Compile of MainMenu_W successful! [in 83 ms] (/Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W)
+[2016.10.25-00.03.04:296][778]BlueprintLog: New page: Compile MainMenu_W
+[2016.10.25-00.03.04:379][778]BlueprintEditorCompileResults: Info [4856.59] Compile of MainMenu_W successful! [in 82 ms] (/Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W)
+[2016.10.25-00.05.08:566][926]BlueprintLog: New page: Compile MainMenu_W
+[2016.10.25-00.05.08:652][926]BlueprintEditorCompileResults: Info [4980.86] Compile of MainMenu_W successful! [in 86 ms] (/Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W)
+[2016.10.25-00.05.28:022][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu/MP_Menu" FILE="../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/MainMenu/MP_Menu.uasset" SILENT=true
+[2016.10.25-00.05.28:061][ 61]LogSavePackage: Save=34.94ms
+[2016.10.25-00.05.28:061][ 61]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_Menu059804C94384844D1FC6A6A16D67B422.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/MainMenu/MP_Menu.uasset'
+[2016.10.25-00.05.28:064][ 61]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/MainMenu/MP_Menu.uasset
+[2016.10.25-00.05.28:067][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu/MainMenu_W" FILE="../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/MainMenu/MainMenu_W.uasset" SILENT=true
+[2016.10.25-00.05.28:097][ 61]LogSavePackage: Save=21.31ms
+[2016.10.25-00.05.28:097][ 61]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MainMenu_WE14D17264B5C15A7806A20945FACAD2E.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/MainMenu/MainMenu_W.uasset'
+[2016.10.25-00.05.28:100][ 61]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/MainMenu/MainMenu_W.uasset
+[2016.10.25-00.06.24:568][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CreateWidget_0 or K2Node_CreateWidget /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CreateWidget_0
+[2016.10.25-00.06.24:568][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CreateWidget_0 or K2Node_CreateWidget /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CreateWidget_0
+[2016.10.25-00.06.24:568][594]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CreateWidget_0.EdGraphPin_35) from referencer (EdGraphPin /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_1.EdGraphPin_27).  Import failed...
+[2016.10.25-00.06.24:568][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_0.EdGraphPin_35''
+[2016.10.25-00.06.24:568][594]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_ComponentBoundEvent_5.EdGraphPin_18) from referencer (EdGraphPin /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_1.EdGraphPin_26).  Import failed...
+[2016.10.25-00.06.24:568][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ComponentBoundEvent_5.EdGraphPin_18''
+[2016.10.25-00.06.24:568][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_3 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_FindButton.MP_FindButton:ServerInfo_Text.K2Node_CallFunction_3
+[2016.10.25-00.06.24:568][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_3 or K2Node_CallFunction /Game/Blueprints/MainMenu/MP_Menu.MP_Menu:ExecuteUbergraph_MP_Menu.K2Node_CallFunction_3
+[2016.10.25-00.06.24:568][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_3 or K2Node_CallFunction /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_3
+[2016.10.25-00.06.24:568][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_3 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3
+[2016.10.25-00.06.24:568][594]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_3.EdGraphPin_45) from referencer (EdGraphPin /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CreateWidget_0.EdGraphPin_39).  Import failed...
+[2016.10.25-00.06.24:568][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3.EdGraphPin_45''
+[2016.10.25-00.06.24:568][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.06.24:568][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_HostGame.MP_HostGame:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.06.24:568][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/MP_Menu.MP_Menu:ExecuteUbergraph_MP_Menu.K2Node_CallFunction_4
+[2016.10.25-00.06.24:568][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_4
+[2016.10.25-00.06.24:568][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.06.24:569][594]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_4.EdGraphPin_48) from referencer (EdGraphPin /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CreateWidget_0.EdGraphPin_38).  Import failed...
+[2016.10.25-00.06.24:569][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4.EdGraphPin_48''
+[2016.10.25-00.06.24:569][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_3
+[2016.10.25-00.06.24:569][594]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_3.EdGraphPin_61) from referencer (EdGraphPin /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CreateWidget_0.EdGraphPin_38).  Import failed...
+[2016.10.25-00.06.24:569][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_3.EdGraphPin_61''
+[2016.10.25-00.06.24:569][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.06.24:569][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_HostGame.MP_HostGame:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.06.24:569][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/MP_Menu.MP_Menu:ExecuteUbergraph_MP_Menu.K2Node_CallFunction_4
+[2016.10.25-00.06.24:569][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_4
+[2016.10.25-00.06.24:569][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.06.24:569][594]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_4.EdGraphPin_46) from referencer (EdGraphPin /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CreateWidget_0.EdGraphPin_36).  Import failed...
+[2016.10.25-00.06.24:569][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4.EdGraphPin_46''
+[2016.10.25-00.06.24:569][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_1
+[2016.10.25-00.06.24:569][594]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_1.EdGraphPin_57) from referencer (EdGraphPin /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_3.EdGraphPin_45).  Import failed...
+[2016.10.25-00.06.24:569][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_1.EdGraphPin_57''
+[2016.10.25-00.06.24:569][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_5 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_FindButton.MP_FindButton:EventGraph.K2Node_CallFunction_5
+[2016.10.25-00.06.24:569][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_5 or K2Node_CallFunction /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_5
+[2016.10.25-00.06.24:569][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_5 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_HostGame.MP_HostGame:EventGraph.K2Node_CallFunction_5
+[2016.10.25-00.06.24:569][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_5 or K2Node_CallFunction /Engine/Transient.EdGraph_122:K2Node_CallFunction_5
+[2016.10.25-00.06.24:569][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_5 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_5
+[2016.10.25-00.06.24:569][594]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_5.EdGraphPin_50) from referencer (EdGraphPin /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_4.EdGraphPin_47).  Import failed...
+[2016.10.25-00.06.24:570][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5.EdGraphPin_50''
+[2016.10.25-00.06.24:570][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_2 or K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_HostGame.MP_HostGame:EventGraph.K2Node_Knot_2
+[2016.10.25-00.06.24:570][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_2 or K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_2
+[2016.10.25-00.06.24:570][594]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_2.EdGraphPin_60) from referencer (EdGraphPin /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_5.EdGraphPin_54).  Import failed...
+[2016.10.25-00.06.24:570][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_2.EdGraphPin_60''
+[2016.10.25-00.06.24:570][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_1
+[2016.10.25-00.06.24:570][594]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_1.EdGraphPin_58) from referencer (EdGraphPin /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_5.EdGraphPin_53).  Import failed...
+[2016.10.25-00.06.24:570][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_1.EdGraphPin_58''
+[2016.10.25-00.06.24:570][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_VariableSet_0
+[2016.10.25-00.06.24:570][594]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_VariableSet_0.EdGraphPin_84) from referencer (EdGraphPin /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_5.EdGraphPin_51).  Import failed...
+[2016.10.25-00.06.24:570][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_0.EdGraphPin_84''
+[2016.10.25-00.06.24:570][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_4 or K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_4
+[2016.10.25-00.06.24:570][594]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_4.EdGraphPin_89) from referencer (EdGraphPin /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_1.EdGraphPin_58).  Import failed...
+[2016.10.25-00.06.24:570][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_4.EdGraphPin_89''
+[2016.10.25-00.06.24:570][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_3
+[2016.10.25-00.06.24:570][594]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_3.EdGraphPin_62) from referencer (EdGraphPin /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_2.EdGraphPin_59).  Import failed...
+[2016.10.25-00.06.24:571][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_3.EdGraphPin_62''
+[2016.10.25-00.06.24:571][594]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_4 or K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_4
+[2016.10.25-00.06.24:571][594]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_4.EdGraphPin_90) from referencer (EdGraphPin /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_VariableSet_0.EdGraphPin_87).  Import failed...
+[2016.10.25-00.06.24:571][594]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_4.EdGraphPin_90''
+[2016.10.25-00.06.39:557][922]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.25-00.06.54:953][350]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.10.25-00.06.55:073][350]BlueprintEditorCompileResults: Info [5087.28] Compile of MP_ServerBrowser successful! [in 119 ms] (/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser)
+[2016.10.25-00.07.26:206][775]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.015
+[2016.10.25-00.07.26:207][775]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser] ([1] browsable assets)...
+[2016.10.25-00.07.26:207][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser]
+[2016.10.25-00.07.26:319][775]LogSavePackage: Save=45.95ms
+[2016.10.25-00.07.26:319][775]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowser_Auto6A6B89C204C3CCF0A9B2329AA04F4D0D2.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto6.uasset'
+[2016.10.25-00.07.26:320][775]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto6.uasset
+[2016.10.25-00.07.26:320][775]LogFileHelpers: Auto-saving content packages took 0.114
+[2016.10.25-00.10.53:710][916]LogSavePackage: Save=44.19ms
+[2016.10.25-00.10.53:710][916]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowserF571964C498BDE05730E7E82BE64108C.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.uasset'
+[2016.10.25-00.10.53:712][916]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.uasset
+[2016.10.25-00.11.19:393][267]LogSavePackage: Save=24.35ms
+[2016.10.25-00.11.19:393][267]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MainMenuLevelA7BF214F43BF9BBB2375E289B18710C8.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/MainMenuLevel.umap'
+[2016.10.25-00.11.19:395][267]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/MainMenuLevel.umap
+[2016.10.25-00.11.19:403][267]LogFileHelpers: Saving map 'MainMenuLevel' took 0.225
+[2016.10.25-00.11.29:050][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/MainMenu" FILE="../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/MainMenu.uasset" SILENT=true
+[2016.10.25-00.11.29:055][358]LogSavePackage: Save=2.96ms
+[2016.10.25-00.11.29:055][358]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MainMenuE8FBD58E4624C85B1D631CA181A736B2.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/MainMenu.uasset'
+[2016.10.25-00.11.29:057][358]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/MainMenu.uasset
+[2016.10.25-00.11.29:075][358]Cmd: MAP LOAD FILE="../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.25-00.11.29:075][358]LightingResults: New page: Lighting Build
+[2016.10.25-00.11.29:077][358]LoadErrors: New page: Loading map: MainMenuLevel.umap
+[2016.10.25-00.11.29:161][358]MapCheck: New page: Map Check
+[2016.10.25-00.11.29:161][358]LightingResults: New page: Lighting Build
+[2016.10.25-00.11.29:209][358]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.25-00.11.29:209][358]LogAIModule: Creating AISystem for world MainMenuLevel
+[2016.10.25-00.11.29:250][358]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.25-00.11.29:285][358]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.934ms to complete.
+[2016.10.25-00.11.29:285][358]LogFileHelpers: Loading map 'MainMenuLevel' took 0.227
+[2016.10.25-00.11.41:394][586]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.10.25-00.11.58:427][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CreateWidget_0 or K2Node_CreateWidget /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CreateWidget_0
+[2016.10.25-00.11.58:427][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CreateWidget_0 or K2Node_CreateWidget /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CreateWidget_0
+[2016.10.25-00.11.58:427][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CreateWidget_0 or K2Node_CreateWidget /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CreateWidget_0
+[2016.10.25-00.11.58:427][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_0.EdGraphPin_35''
+[2016.10.25-00.11.58:427][301]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_ComponentBoundEvent_5.EdGraphPin_18) from referencer (EdGraphPin /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CallFunction_1.EdGraphPin_26).  Import failed...
+[2016.10.25-00.11.58:427][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ComponentBoundEvent_5.EdGraphPin_18''
+[2016.10.25-00.11.58:427][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_3 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_FindButton.MP_FindButton:ServerInfo_Text.K2Node_CallFunction_3
+[2016.10.25-00.11.58:427][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_3 or K2Node_CallFunction /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CallFunction_3
+[2016.10.25-00.11.58:427][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_3 or K2Node_CallFunction /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_3
+[2016.10.25-00.11.58:427][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_3 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3
+[2016.10.25-00.11.58:427][301]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_3.EdGraphPin_45) from referencer (EdGraphPin /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CreateWidget_0.EdGraphPin_39).  Import failed...
+[2016.10.25-00.11.58:427][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3.EdGraphPin_45''
+[2016.10.25-00.11.58:427][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.11.58:427][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_HostGame.MP_HostGame:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.11.58:427][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.11.58:428][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_4
+[2016.10.25-00.11.58:428][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.11.58:428][301]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_4.EdGraphPin_48) from referencer (EdGraphPin /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CreateWidget_0.EdGraphPin_38).  Import failed...
+[2016.10.25-00.11.58:428][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4.EdGraphPin_48''
+[2016.10.25-00.11.58:428][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_3
+[2016.10.25-00.11.58:428][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_Knot_3
+[2016.10.25-00.11.58:428][301]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_3.EdGraphPin_61) from referencer (EdGraphPin /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CreateWidget_0.EdGraphPin_38).  Import failed...
+[2016.10.25-00.11.58:428][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_3.EdGraphPin_61''
+[2016.10.25-00.11.58:428][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.11.58:428][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_HostGame.MP_HostGame:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.11.58:428][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.11.58:428][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_4
+[2016.10.25-00.11.58:428][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.11.58:428][301]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_4.EdGraphPin_46) from referencer (EdGraphPin /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CreateWidget_0.EdGraphPin_36).  Import failed...
+[2016.10.25-00.11.58:428][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4.EdGraphPin_46''
+[2016.10.25-00.11.58:428][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_1
+[2016.10.25-00.11.58:428][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_Knot_1
+[2016.10.25-00.11.58:428][301]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_1.EdGraphPin_57) from referencer (EdGraphPin /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CallFunction_3.EdGraphPin_45).  Import failed...
+[2016.10.25-00.11.58:428][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_1.EdGraphPin_57''
+[2016.10.25-00.11.58:429][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_5 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_FindButton.MP_FindButton:EventGraph.K2Node_CallFunction_5
+[2016.10.25-00.11.58:429][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_5 or K2Node_CallFunction /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_5
+[2016.10.25-00.11.58:429][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_5 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_HostGame.MP_HostGame:EventGraph.K2Node_CallFunction_5
+[2016.10.25-00.11.58:429][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_5 or K2Node_CallFunction /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CallFunction_5
+[2016.10.25-00.11.58:429][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_5 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_5
+[2016.10.25-00.11.58:429][301]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_5.EdGraphPin_50) from referencer (EdGraphPin /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CallFunction_4.EdGraphPin_47).  Import failed...
+[2016.10.25-00.11.58:429][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5.EdGraphPin_50''
+[2016.10.25-00.11.58:429][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_Knot_2 or K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_2
+[2016.10.25-00.11.58:429][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_Knot_2 or K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_HostGame.MP_HostGame:EventGraph.K2Node_Knot_2
+[2016.10.25-00.11.58:429][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_Knot_2 or K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_2
+[2016.10.25-00.11.58:429][301]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_2.EdGraphPin_60) from referencer (EdGraphPin /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CallFunction_5.EdGraphPin_54).  Import failed...
+[2016.10.25-00.11.58:429][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_2.EdGraphPin_60''
+[2016.10.25-00.11.58:429][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_1
+[2016.10.25-00.11.58:429][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_Knot_1
+[2016.10.25-00.11.58:429][301]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_1.EdGraphPin_58) from referencer (EdGraphPin /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CallFunction_5.EdGraphPin_53).  Import failed...
+[2016.10.25-00.11.58:429][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_1.EdGraphPin_58''
+[2016.10.25-00.11.58:430][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_VariableSet_0
+[2016.10.25-00.11.58:430][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_VariableSet_0
+[2016.10.25-00.11.58:430][301]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_VariableSet_0.EdGraphPin_84) from referencer (EdGraphPin /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CallFunction_5.EdGraphPin_51).  Import failed...
+[2016.10.25-00.11.58:430][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_0.EdGraphPin_84''
+[2016.10.25-00.11.58:430][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.11.58:430][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_HostGame.MP_HostGame:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.11.58:430][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_4
+[2016.10.25-00.11.58:430][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameInfo/SB_GameInstance.SB_GameInstance:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_CallFunction_4
+[2016.10.25-00.11.58:430][301]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_CallFunction_4.EdGraphPin_47) from referencer (EdGraphPin /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_CallFunction_5.EdGraphPin_50).  Import failed...
+[2016.10.25-00.11.58:430][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4.EdGraphPin_47''
+[2016.10.25-00.11.58:430][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_Knot_4 or K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_4
+[2016.10.25-00.11.58:430][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_Knot_4 or K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_4
+[2016.10.25-00.11.58:430][301]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_4.EdGraphPin_89) from referencer (EdGraphPin /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_Knot_1.EdGraphPin_58).  Import failed...
+[2016.10.25-00.11.58:430][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_4.EdGraphPin_89''
+[2016.10.25-00.11.58:430][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_3
+[2016.10.25-00.11.58:430][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_Knot_3
+[2016.10.25-00.11.58:430][301]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_3.EdGraphPin_62) from referencer (EdGraphPin /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_Knot_2.EdGraphPin_59).  Import failed...
+[2016.10.25-00.11.58:430][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_3.EdGraphPin_62''
+[2016.10.25-00.11.58:431][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_Knot_4 or K2Node_Knot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:EventGraph.K2Node_Knot_4
+[2016.10.25-00.11.58:431][301]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_Knot_4 or K2Node_Knot /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_4
+[2016.10.25-00.11.58:431][301]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/MainMenu/MainMenu_W.MainMenu_W:EventGraph.K2Node_Knot_4.EdGraphPin_90) from referencer (EdGraphPin /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel.EventGraph.K2Node_VariableSet_0.EdGraphPin_87).  Import failed...
+[2016.10.25-00.11.58:431][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_4.EdGraphPin_90''
+[2016.10.25-00.12.17:281][384]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.25-00.12.33:825][135]BlueprintLog: New page: Compile MainMenuLevel
+[2016.10.25-00.12.33:937][135]BlueprintEditorCompileResults: Info [5426.13] Compile of PersistentLevel.MainMenuLevel successful! [in 111 ms] (/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel)
+[2016.10.25-00.12.49:510][293]LogSavePackage: Save=77.81ms
+[2016.10.25-00.12.49:510][293]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MainMenuLevel3D451A73471B54F723349E971CF46495.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/MainMenuLevel.umap'
+[2016.10.25-00.12.49:513][293]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/MainMenuLevel.umap
+[2016.10.25-00.12.49:536][293]LogFileHelpers: Saving map 'MainMenuLevel' took 0.192
+[2016.10.25-00.15.21:510][186]Cmd: UpdateLandscapeSetup
+[2016.10.25-00.15.37:736][776]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.25-00.15.47:380][349]LogUObjectGlobals:Warning: Failed to find object 'Class None.None'
+[2016.10.25-00.15.53:125][443]LogSavePackage: Save=69.44ms
+[2016.10.25-00.15.53:125][443]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MainMenuLevel2A72C761448D96FE05BC099A7F0D74EF.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/MainMenuLevel.umap'
+[2016.10.25-00.15.53:127][443]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/MainMenuLevel.umap
+[2016.10.25-00.16.37:739][770]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.10.25-00.16.37:739][770]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.10.25-00.16.38:524][844]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.10.25-00.16.38:524][844]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.10.25-00.17.11:286][226]BlueprintLog: New page: Compile MainMenuLevel
+[2016.10.25-00.17.11:359][226]BlueprintEditorCompileResults: Info [5703.55] Compile of PersistentLevel.MainMenuLevel successful! [in 72 ms] (/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel)
+[2016.10.25-00.17.13:095][326]LogSavePackage: Save=73.95ms
+[2016.10.25-00.17.13:095][326]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MainMenuLevel652FAEE44629E4DA799708A623970628.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/MainMenuLevel.umap'
+[2016.10.25-00.17.13:097][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/MainMenuLevel.umap
+[2016.10.25-00.17.13:119][326]LogFileHelpers: Saving map 'MainMenuLevel' took 0.151
+[2016.10.25-00.17.13:133][326]LogSavePackage: Save=9.55ms
+[2016.10.25-00.17.13:133][326]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MainMenuGameModeCF45801A45DE1D6E515584B0410D9BF7.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/GameInfo/MainMenuGameMode.uasset'
+[2016.10.25-00.17.13:135][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/GameInfo/MainMenuGameMode.uasset
+[2016.10.25-00.17.19:858][481]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.10.25-00.17.19:889][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.25-00.17.19:977][481]PIE: New page: PIE session: MainMenuLevel (Oct 24, 2016, 1:17:19 PM)
+[2016.10.25-00.17.19:977][481]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenuLevel
+[2016.10.25-00.17.20:020][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043247s)
+[2016.10.25-00.17.20:020][481]LogAIModule: Creating AISystem for world MainMenuLevel
+[2016.10.25-00.17.20:021][481]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2016.10.25-00.17.20:034][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.057629s)
+[2016.10.25-00.17.20:064][481]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.25-00.17.20:074][481]LogInit: FAudioDevice initialized.
+[2016.10.25-00.17.20:385][481]LogWorld: Game class is 'MainMenuGameMode_C'
+[2016.10.25-00.17.20:390][481]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2016.10.24-19.17.20
+[2016.10.25-00.17.20:413][481]LogWorld: Bringing up level for play took: 0.024070
+[2016.10.25-00.17.20:545][481]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2016.10.25-00.17.20:655][481]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenuLevel 0.907
+[2016.10.25-00.17.20:655][481]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.10.25-00.17.48:850][956]LogScriptCore:Warning: CreateSession - Invalid or uninitialized OnlineSubsystem
+
+[2016.10.25-00.17.48:850][956]LogScriptCore:Warning: CreateSession - Cannot map local player to unique net ID
+
+[2016.10.25-00.17.48:856][956]LogBlueprintUserMessages: [MP_HostGame_394] Error al crear la Sesión
+[2016.10.25-00.17.56:707][660]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.10.25-00.17.56:856][660]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.10.25-00.21.44:874][408]LogSavePackage: Save=74.33ms
+[2016.10.25-00.21.44:874][408]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MainMenuLevel065DA5E64AA5994124BFEDAC4B29FD9F.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/MainMenuLevel.umap'
+[2016.10.25-00.21.44:876][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/MainMenuLevel.umap
+[2016.10.25-00.23.15:207][585]Cmd: QUIT_EDITOR
+[2016.10.25-00.23.15:258][585]LogExit: Preparing to exit.
+[2016.10.25-00.23.16:448][585]LogExit: Editor shut down
+[2016.10.25-00.23.16:448][585]LogExit: Transaction tracking system shut down
+[2016.10.25-00.23.16:575][585]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.25-00.23.16:576][585]LogExit: Object subsystem successfully closed.
+[2016.10.25-00.23.16:595][585]LogD3D11RHI: Shutdown
+[2016.10.25-00.23.16:595][585]LogD3D11RHI: CleanupD3DDevice
+[2016.10.25-00.23.16:647][585]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.25-00.23.16:667][585]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (218)
+[2016.10.25-00.23.16:671][585]LogModuleManager: Shutting down and abandoning module SequencerWidgets (217)
+[2016.10.25-00.23.16:671][585]LogModuleManager: Shutting down and abandoning module BlueprintGraph (216)
+[2016.10.25-00.23.16:671][585]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (215)
+[2016.10.25-00.23.16:671][585]LogModuleManager: Shutting down and abandoning module CrashTracker (214)
+[2016.10.25-00.23.16:671][585]LogModuleManager: Shutting down and abandoning module SceneOutliner (213)
+[2016.10.25-00.23.16:684][585]LogModuleManager: Shutting down and abandoning module WidgetCarousel (212)
+[2016.10.25-00.23.16:732][585]LogModuleManager: Shutting down and abandoning module AddContentDialog (211)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module GameplayTags (210)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module EditorWidgets (209)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module CollectionManager (208)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module StatsViewer (207)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module FoliageEdit (206)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module LandscapeEditor (205)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (204)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module ActorPickerMode (203)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module GeometryMode (202)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module TextureAlignMode (201)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module BspMode (200)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module HardwareSurvey (199)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (198)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module SequenceRecorder (197)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module AutomationWorker (196)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (195)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module PlacementMode (194)
+[2016.10.25-00.23.16:818][585]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (193)
+[2016.10.25-00.23.16:819][585]LogModuleManager: Shutting down and abandoning module CharacterAI (192)
+[2016.10.25-00.23.16:819][585]LogModuleManager: Shutting down and abandoning module SmartSnapping (191)
+[2016.10.25-00.23.16:819][585]LogModuleManager: Shutting down and abandoning module SessionServices (190)
+[2016.10.25-00.23.16:819][585]LogModuleManager: Shutting down and abandoning module ViewportSnapping (189)
+[2016.10.25-00.23.16:819][585]LogModuleManager: Shutting down and abandoning module LogVisualizer (188)
+[2016.10.25-00.23.16:819][585]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (187)
+[2016.10.25-00.23.16:819][585]LogModuleManager: Shutting down and abandoning module IntroTutorials (186)
+[2016.10.25-00.23.16:819][585]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (185)
+[2016.10.25-00.23.16:819][585]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (184)
+[2016.10.25-00.23.16:819][585]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (183)
+[2016.10.25-00.23.16:819][585]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (182)
+[2016.10.25-00.23.16:838][585]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (181)
+[2016.10.25-00.23.16:838][585]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (180)
+[2016.10.25-00.23.16:838][585]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (179)
+[2016.10.25-00.23.16:838][585]LogModuleManager: Shutting down and abandoning module MergeActors (178)
+[2016.10.25-00.23.16:838][585]LogModuleManager: Shutting down and abandoning module SizeMap (177)
+[2016.10.25-00.23.16:838][585]LogModuleManager: Shutting down and abandoning module TreeMap (176)
+[2016.10.25-00.23.16:838][585]LogModuleManager: Shutting down and abandoning module ReferenceViewer (175)
+[2016.10.25-00.23.16:838][585]LogModuleManager: Shutting down and abandoning module LocalizationService (174)
+[2016.10.25-00.23.16:838][585]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (173)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module HardwareTargeting (172)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (171)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module UndoHistory (170)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module UserFeedback (169)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module XmlParser (168)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module Blutility (167)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (166)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (165)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module InputBindingEditor (164)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (163)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module SettingsEditor (162)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module ProjectLauncher (161)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module SessionFrontend (160)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module ProfilerClient (159)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (158)
+[2016.10.25-00.23.16:839][585]LogModuleManager: Shutting down and abandoning module DeviceManager (157)
+[2016.10.25-00.23.16:889][585]LogModuleManager: Shutting down and abandoning module AutomationController (156)
+[2016.10.25-00.23.16:889][585]LogModuleManager: Shutting down and abandoning module AutomationWindow (155)
+[2016.10.25-00.23.16:889][585]LogModuleManager: Shutting down and abandoning module Layers (154)
+[2016.10.25-00.23.16:889][585]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (153)
+[2016.10.25-00.23.16:889][585]LogModuleManager: Shutting down and abandoning module DetailCustomizations (152)
+[2016.10.25-00.23.16:889][585]LogModuleManager: Shutting down and abandoning module PackagesDialog (151)
+[2016.10.25-00.23.16:889][585]LogModuleManager: Shutting down and abandoning module Persona (150)
+[2016.10.25-00.23.16:889][585]LogModuleManager: Shutting down and abandoning module Kismet (149)
+[2016.10.25-00.23.16:889][585]LogModuleManager: Shutting down and abandoning module GraphEditor (148)
+[2016.10.25-00.23.16:889][585]LogModuleManager: Shutting down and abandoning module ClassViewer (147)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module Toolbox (146)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module ModuleUI (145)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module MovieSceneTools (144)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module OutputLog (143)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module GammaUI (142)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module Documentation (141)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (140)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module AnalyticsET (139)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module Analytics (138)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module PortalServices (137)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module PortalRpc (136)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module MessagingRpc (135)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module GameplayDebugger (134)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module AITestSuite (133)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module AIModule (132)
+[2016.10.25-00.23.16:891][585]LogModuleManager: Shutting down and abandoning module ProfilerService (131)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module TaskGraph (130)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module SubstanceEditor (129)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module SlateRemote (128)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module SteamVRController (127)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module SteamVR (126)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (125)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module OculusLibrary (124)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module OculusInput (123)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (122)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module CableComponent (121)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (120)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (119)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.10.25-00.23.17:010][585]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.10.25-00.23.17:011][585]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.10.25-00.23.17:011][585]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.10.25-00.23.17:011][585]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.10.25-00.23.17:011][585]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.10.25-00.23.17:011][585]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.10.25-00.23.17:011][585]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.10.25-00.23.17:011][585]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.10.25-00.23.17:011][585]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2016.10.25-00.23.17:011][585]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.10.25-00.23.17:011][585]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.10.25-00.23.17:011][585]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.10.25-00.23.17:012][585]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2016.10.25-00.23.17:013][585]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2016.10.25-00.23.17:013][585]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
+[2016.10.25-00.23.17:113][585]LogModuleManager: Shutting down and abandoning module SubstanceCore (94)
+[2016.10.25-00.23.17:113][585]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.25-00.23.17:113][585]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.25-00.23.17:113][585]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.25-00.23.17:113][585]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.25-00.23.17:113][585]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.25-00.23.17:113][585]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.25-00.23.17:113][585]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.25-00.23.17:113][585]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.25-00.23.17:113][585]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.25-00.23.17:113][585]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.25-00.23.17:113][585]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.25-00.23.17:113][585]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.25-00.23.17:166][585]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.25-00.23.17:166][585]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.25-00.23.17:166][585]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.25-00.23.17:166][585]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.25-00.23.17:166][585]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.25-00.23.17:166][585]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.25-00.23.17:166][585]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.25-00.23.17:166][585]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.25-00.23.17:166][585]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.25-00.23.17:166][585]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.25-00.23.17:166][585]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.25-00.23.17:166][585]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.25-00.23.17:168][585]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.25-00.23.17:168][585]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.25-00.23.17:168][585]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.25-00.23.17:168][585]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.25-00.23.17:168][585]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.25-00.23.17:168][585]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.25-00.23.17:169][585]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.25-00.23.17:297][585]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.25-00.23.17:297][585]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.25-00.23.17:297][585]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.25-00.23.17:297][585]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.25-00.23.17:365][585]LogDerivedDataCache: Shutdown
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.10.25-00.23.17:365][585]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.10.25-00.23.18:865][585]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.10.25-00.23.18:865][585]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.25-00.23.18:865][585]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.25-00.23.18:865][585]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.25-00.23.18:865][585]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.25-00.23.18:865][585]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.25-00.23.18:865][585]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.25-00.23.18:868][585]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.25-00.23.18:868][585]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.25-00.23.18:868][585]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.25-00.23.18:868][585]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.25-00.23.18:868][585]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.25-00.23.18:868][585]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.25-00.23.18:868][585]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.25-00.23.18:868][585]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.25-00.23.18:868][585]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.25-00.23.18:868][585]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.25-00.23.18:870][585]LogExit: Exiting.
+[2016.10.25-00.23.18:881][585]Log file closed, 10/24/16 19:23:18

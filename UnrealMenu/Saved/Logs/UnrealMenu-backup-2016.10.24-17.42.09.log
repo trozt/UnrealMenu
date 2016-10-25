@@ -1,0 +1,579 @@
+﻿Log file open, 10/18/16 11:42:28
+LogInit:Display: Running engine for game: UnrealMenu
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1432085359) SRandInit(-1432085358).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.063205
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.18-16.42.28:194][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.18-16.42.28:194][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.18-16.42.28:251][  0]LogInit: Computer: WS-GERARDO
+[2016.10.18-16.42.28:251][  0]LogInit: User: gerardo
+[2016.10.18-16.42.28:251][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.18-16.42.28:251][  0]LogInit: High frequency timer resolution =3.507568 MHz
+[2016.10.18-16.42.28:251][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.10.18-16.42.28:251][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.18-16.42.28:251][  0]LogMemory: Process Physical Memory: 191.48 MB used, 191.48 MB peak
+[2016.10.18-16.42.28:251][  0]LogMemory: Process Virtual Memory: 196.98 MB used, 196.98 MB peak
+[2016.10.18-16.42.28:251][  0]LogMemory: Physical Memory: 12031.64 MB used, 16326.10 MB total
+[2016.10.18-16.42.28:251][  0]LogMemory: Virtual Memory: 523.14 MB used, 8388608.00 MB total
+[2016.10.18-16.42.30:655][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.18-16.42.30:675][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 745' (Feature Level 11_0)
+[2016.10.18-16.42.30:675][  0]LogD3D11RHI:       4035/0/7907 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.10.18-16.42.30:675][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.18-16.42.30:681][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.18-16.42.30:681][  0]LogD3D11RHI:     GPU DeviceId: 0x1382 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.18-16.42.30:681][  0]LogWindows: EnumDisplayDevices:
+[2016.10.18-16.42.30:681][  0]LogWindows:    0. 'NVIDIA GeForce GTX 745' (P:1 D:1)
+[2016.10.18-16.42.30:681][  0]LogWindows:    1. 'NVIDIA GeForce GTX 745' (P:0 D:1)
+[2016.10.18-16.42.30:682][  0]LogWindows:    2. 'NVIDIA GeForce GTX 745' (P:0 D:0)
+[2016.10.18-16.42.30:682][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
+[2016.10.18-16.42.30:682][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.10.18-16.42.30:682][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.10.18-16.42.30:682][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2016.10.18-16.42.30:683][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 745
+[2016.10.18-16.42.30:683][  0]LogD3D11RHI:   Driver Version: 368.22 (internal:10.18.13.6822, unified:368.22)
+[2016.10.18-16.42.30:683][  0]LogD3D11RHI:      Driver Date: 5-19-2016
+[2016.10.18-16.42.30:683][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.18-16.42.30:692][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.18-16.42.30:706][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.18-16.42.30:706][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Intermediate/Shaders/WorkingDirectory/10788/).
+[2016.10.18-16.42.30:706][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gerardo/AppData/Local/Temp/UnrealShaderWorkingDir/2C4E9BDC4537141A96497EAA9CA72628/'.
+[2016.10.18-16.42.30:706][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.18-16.42.36:884][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.18-16.42.36:891][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.18-16.42.36:898][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.18-16.42.36:905][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.18-16.42.36:912][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.18-16.42.36:919][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.18-16.42.36:925][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.18-16.42.36:932][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.18-16.42.36:938][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.18-16.42.36:944][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.18-16.42.36:950][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.18-16.42.36:963][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.18-16.42.36:963][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.18-16.42.36:963][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.18-16.42.36:984][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.18-16.42.36:990][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.18-16.42.36:996][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.18-16.42.37:002][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.18-16.42.37:028][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.18-16.42.37:028][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.18-16.42.37:076][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.18-16.42.37:125][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/gerardo/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.18-16.42.37:125][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/gerardo/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.18-16.42.37:125][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.18-16.42.37:125][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.18-16.42.37:125][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.18-16.42.37:125][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.18-16.42.37:140][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.18-16.42.37:151][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gerardo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.18-16.42.37:290][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.18-16.42.37:290][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.18-16.42.37:415][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.18-16.42.37:415][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.18-16.42.37:415][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.18-16.42.37:724][  0]LogAssetRegistry: FAssetRegistry took 0.0199 seconds to start up
+[2016.10.18-16.42.37:839][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.113934 seconds
+[2016.10.18-16.42.37:843][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.10.18-16.42.37:843][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.10.18-16.42.37:843][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.18-16.42.37:848][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.18-16.42.38:251][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.18-16.42.38:251][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.18-16.42.44:920][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.10.18-16.42.44:925][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.18-16.42.45:111][  0]SourceControl: Info Source control is disabled
+[2016.10.18-16.42.45:111][  0]SourceControl: Info Source control is disabled
+[2016.10.18-16.42.45:116][  0]SourceControl: Info Source control is disabled
+[2016.10.18-16.42.45:120][  0]SourceControl: Info Source control is disabled
+[2016.10.18-16.42.45:249][  0]LogEngine: Initializing Engine...
+[2016.10.18-16.42.45:250][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.18-16.42.45:250][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.18-16.42.45:360][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.18-16.42.45:363][  0]LogInit: XAudio2 using 'Altavoces / Auriculares (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.18-16.42.45:374][  0]LogInit: FAudioDevice initialized.
+[2016.10.18-16.42.45:396][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/gerardo/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.18-16.42.45:401][  0]LogInit: Texture streaming: Enabled
+[2016.10.18-16.42.45:468][  0]LogInit: Transaction tracking system initialized
+[2016.10.18-16.42.45:482][  0]BlueprintLog: New page: Editor Load
+[2016.10.18-16.42.45:525][  0]LocalizationService: Info Localization service is disabled
+[2016.10.18-16.42.45:567][  0]LogConsoleResponse:Display: 
+[2016.10.18-16.42.46:277][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.18-16.42.46:277][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.18-16.42.46:337][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/' took 0.01s
+[2016.10.18-16.42.46:337][  0]SourceControl: Info Source control is disabled
+[2016.10.18-16.42.46:337][  0]Cmd: MAP LOAD FILE="../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.18-16.42.47:031][  0]LightingResults: New page: Lighting Build
+[2016.10.18-16.42.47:033][  0]MapCheck: New page: Map Check
+[2016.10.18-16.42.47:033][  0]LightingResults: New page: Lighting Build
+[2016.10.18-16.42.56:515][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.18-16.42.57:469][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.18-16.42.57:495][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.18-16.42.57:527][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.659ms to complete.
+[2016.10.18-16.42.57:527][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 11.190
+[2016.10.18-16.43.02:437][  0]LogCollectionManager: Loaded 0 collections in 0.001175 seconds
+[2016.10.18-16.43.03:212][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Collections/' took 0.01s
+[2016.10.18-16.43.03:212][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Developers/gerardo/Collections/' took 0.01s
+[2016.10.18-16.43.03:212][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Collections/' took 0.01s
+[2016.10.18-16.43.03:212][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.10.18-16.43.03:270][  0]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 2062 classes and 375 folders.
+[2016.10.18-16.43.03:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.18-16.43.03:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.18-16.43.03:522][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.10.18-16.43.03:623][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.10.18-16.43.18:548][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.18-16.43.18:812][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.10.18-16.43.19:601][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.18-16.43.19:805][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.18-16.43.19:859][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.10.18-16.43.19:859][  0]LogLoad: Full Startup: 56.21 seconds (BP compile: 0.34 seconds)
+[2016.10.18-16.43.19:859][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.10.18-16.43.19:859][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.10.18-16.43.19:869][  0]LogOcInput: OculusInput pre-init called
+[2016.10.18-16.43.19:987][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.18-16.43.22:651][  0]LogRenderer: Reallocating scene render targets to support 1256x580 (Frame:2).
+[2016.10.18-16.43.23:539][  2]LogAssetRegistry: Asset discovery search completed in 45.8345 seconds
+[2016.10.18-16.43.23:539][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.18-16.43.23:539][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.10.18-16.45.17:073][311]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2016.10.18-16.54.31:077][127]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree_3.HorizontalBox_0
+[2016.10.18-16.54.31:077][127]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_3.WidgetTree_3.HorizontalBox_0
+[2016.10.18-16.54.31:078][127]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree_4.HorizontalBox_0
+[2016.10.18-16.54.31:078][127]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_4.WidgetTree_4.HorizontalBox_0
+[2016.10.18-16.54.31:078][127]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree_5.HorizontalBox_0
+[2016.10.18-16.54.31:078][127]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_5.WidgetTree_5.HorizontalBox_0
+[2016.10.18-16.54.31:078][127]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree_6.HorizontalBox_0
+[2016.10.18-16.54.31:078][127]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_6.WidgetTree_6.HorizontalBox_0
+[2016.10.18-16.54.31:078][127]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree_7.HorizontalBox_0
+[2016.10.18-16.54.31:078][127]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_7.WidgetTree_7.HorizontalBox_0
+[2016.10.18-16.54.31:078][127]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_1).  Import failed...
+[2016.10.18-16.54.31:078][127]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_0.HorizontalBoxSlot_0''
+[2016.10.18-16.55.19:589][970]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.247
+[2016.10.18-16.55.19:634][970]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser] ([1] browsable assets)...
+[2016.10.18-16.55.19:634][970]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser]
+[2016.10.18-16.55.20:029][970]LogSavePackage: Save=322.55ms
+[2016.10.18-16.55.20:029][970]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowser_Auto1006485B646EBDDAB52401196D4CF0331.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto1.uasset'
+[2016.10.18-16.55.20:050][970]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto1.uasset
+[2016.10.18-16.55.20:050][970]LogFileHelpers: Auto-saving content packages took 0.452
+[2016.10.18-17.16.18:465][991]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.10.18-17.16.18:736][991]BlueprintEditorCompileResults: Info [2035.02] Compile of MP_ServerBrowser successful! [in 241 ms] (/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser)
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_0.WidgetTree_12.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_9.WidgetTree_9.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree_12.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_1.WidgetTree_1.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_2.WidgetTree_2.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_3.WidgetTree_3.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_4.WidgetTree_4.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_5.WidgetTree_5.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_6.WidgetTree_6.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_7.WidgetTree_7.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_8.WidgetTree_8.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_10.WidgetTree_10.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_11.WidgetTree_11.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.REINST_MP_ServerBrowser_C_12:WidgetTree.VerticalBox_0
+[2016.10.18-17.16.37:353][237]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0.VerticalBoxSlot_0) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_0).  Import failed...
+[2016.10.18-17.16.37:353][237]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_0''
+[2016.10.18-17.17.06:477][764]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.014
+[2016.10.18-17.17.06:478][764]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser] ([1] browsable assets)...
+[2016.10.18-17.17.06:478][764]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser]
+[2016.10.18-17.17.06:497][764]LogSavePackage: Save=11.90ms
+[2016.10.18-17.17.06:497][764]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowser_Auto2DFFE7396463AD8352FBF649077456124.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto2.uasset'
+[2016.10.18-17.17.06:498][764]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto2.uasset
+[2016.10.18-17.17.06:498][764]LogFileHelpers: Auto-saving content packages took 0.020
+[2016.10.18-17.17.11:299][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree_13.VerticalBox_0
+[2016.10.18-17.17.11:299][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_12.WidgetTree_13.VerticalBox_0
+[2016.10.18-17.17.11:299][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_9.WidgetTree_9.VerticalBox_0
+[2016.10.18-17.17.11:299][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_1.WidgetTree_1.VerticalBox_0
+[2016.10.18-17.17.11:299][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_2.WidgetTree_2.VerticalBox_0
+[2016.10.18-17.17.11:299][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_3.WidgetTree_3.VerticalBox_0
+[2016.10.18-17.17.11:299][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_4.WidgetTree_4.VerticalBox_0
+[2016.10.18-17.17.11:299][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_5.WidgetTree_5.VerticalBox_0
+[2016.10.18-17.17.11:299][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_13.WidgetTree_14.VerticalBox_0
+[2016.10.18-17.17.11:299][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_6.WidgetTree_6.VerticalBox_0
+[2016.10.18-17.17.11:299][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree_14.VerticalBox_0
+[2016.10.18-17.17.11:299][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_7.WidgetTree_7.VerticalBox_0
+[2016.10.18-17.17.11:299][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_8.WidgetTree_8.VerticalBox_0
+[2016.10.18-17.17.11:299][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_10.WidgetTree_10.VerticalBox_0
+[2016.10.18-17.17.11:300][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.VerticalBox_0
+[2016.10.18-17.17.11:300][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:MP_ServerBrowser_C_11.WidgetTree_11.VerticalBox_0
+[2016.10.18-17.17.11:300][  5]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.REINST_MP_ServerBrowser_C_12:WidgetTree.VerticalBox_0
+[2016.10.18-17.17.11:300][  5]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.VerticalBox_0.VerticalBoxSlot_5) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_212).  Import failed...
+[2016.10.18-17.17.11:300][  5]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_5''
+[2016.10.18-17.18.20:097][433]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_1 or HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree_14.HorizontalBox_1
+[2016.10.18-17.18.20:097][433]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_13.WidgetTree_14.HorizontalBox_1
+[2016.10.18-17.18.20:097][433]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_1 or HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree_15.HorizontalBox_1
+[2016.10.18-17.18.20:097][433]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_14.WidgetTree_15.HorizontalBox_1
+[2016.10.18-17.18.20:097][433]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_1 or HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree_16.HorizontalBox_1
+[2016.10.18-17.18.20:097][433]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_15.WidgetTree_16.HorizontalBox_1
+[2016.10.18-17.18.20:097][433]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_1 or HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree_17.HorizontalBox_1
+[2016.10.18-17.18.20:097][433]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_1 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_16.WidgetTree_17.HorizontalBox_1
+[2016.10.18-17.18.20:097][433]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_7) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_213).  Import failed...
+[2016.10.18-17.18.20:097][433]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_1.HorizontalBoxSlot_7''
+[2016.10.18-17.24.46:154][958]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.10.18-17.24.46:297][958]BlueprintEditorCompileResults: Info [2542.60] Compile of MP_ServerBrowser successful! [in 143 ms] (/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser)
+[2016.10.18-17.27.05:147][926]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.10.18-17.27.05:224][926]BlueprintEditorCompileResults: Info [2681.52] Compile of MP_ServerBrowser successful! [in 77 ms] (/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser)
+[2016.10.18-17.27.06:700][994]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.054
+[2016.10.18-17.27.06:701][994]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser] ([1] browsable assets)...
+[2016.10.18-17.27.06:701][994]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser]
+[2016.10.18-17.27.06:721][994]LogSavePackage: Save=12.90ms
+[2016.10.18-17.27.06:721][994]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowser_Auto3B55B91AE4CABE286098230AFF65DE492.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto3.uasset'
+[2016.10.18-17.27.06:812][994]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto3.uasset
+[2016.10.18-17.27.06:812][994]LogFileHelpers: Auto-saving content packages took 0.111
+[2016.10.18-17.29.30:802][440]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.10.18-17.29.30:891][440]BlueprintEditorCompileResults: Info [2827.19] Compile of MP_ServerBrowser successful! [in 88 ms] (/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser)
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.TRASHCLASS_MP_ServerBrowser_48:HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_20.WidgetTree_22.HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_0.WidgetTree_33.HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_21.WidgetTree_23.HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_22.WidgetTree_24.HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_23.WidgetTree_25.HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_24.WidgetTree_27.HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_25.WidgetTree_28.HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_26.WidgetTree_29.HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_27.WidgetTree_30.HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_3:MP_ServerBrowser_C_28.WidgetTree_31.HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree.HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_3:REINST_MP_ServerBrowser_C_2.WidgetTree_32.HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.REINST_MP_ServerBrowser_C_36:WidgetTree.HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2 or HorizontalBox /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser_C:WidgetTree_33.HorizontalBox_2
+[2016.10.18-17.30.40:267][556]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_14) from referencer (Button /Engine/UMG/Editor/Transient.Button_0).  Import failed...
+[2016.10.18-17.30.40:268][556]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_2.HorizontalBoxSlot_14''
+[2016.10.18-17.31.40:884][722]LogSavePackage: Save=19.65ms
+[2016.10.18-17.31.40:884][722]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowserD2CF23F348E37DEE2059CEB8DE14D767.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.uasset'
+[2016.10.18-17.31.40:888][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.uasset
+[2016.10.18-17.37.31:783][514]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.016
+[2016.10.18-17.37.31:784][514]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser] ([1] browsable assets)...
+[2016.10.18-17.37.31:784][514]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser]
+[2016.10.18-17.37.31:843][514]LogSavePackage: Save=52.20ms
+[2016.10.18-17.37.31:843][514]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowser_Auto4FA5036CC462ECD8B2519FEA37904A58A.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto4.uasset'
+[2016.10.18-17.37.31:844][514]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto4.uasset
+[2016.10.18-17.37.31:844][514]LogFileHelpers: Auto-saving content packages took 0.060
+[2016.10.18-17.39.00:691][522]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.10.18-17.39.00:911][522]BlueprintEditorCompileResults: Info [3397.20] Compile of MP_ServerBrowser successful! [in 219 ms] (/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser)
+[2016.10.18-17.42.53:908][482]LogClass:Warning: Type mismatch in FoundServers of SKEL_MP_ServerBrowser_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2016.10.18-17.42.59:514][763]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.10.18-17.42.59:601][763]BlueprintEditorCompileResults: Info [3635.88] Compile of MP_ServerBrowser successful! [in 86 ms] (/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser)
+[2016.10.18-17.45.59:379][363]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.18-17.48.27:225][454]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.019
+[2016.10.18-17.48.27:226][454]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser] ([1] browsable assets)...
+[2016.10.18-17.48.27:226][454]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser]
+[2016.10.18-17.48.27:261][454]LogSavePackage: Save=28.71ms
+[2016.10.18-17.48.27:261][454]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowser_Auto57B510C714FA76288BF4C3B8F42C87645.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto5.uasset'
+[2016.10.18-17.48.27:262][454]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto5.uasset
+[2016.10.18-17.48.27:262][454]LogFileHelpers: Auto-saving content packages took 0.037
+[2016.10.18-17.49.16:163][446]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.10.18-17.49.16:258][446]BlueprintEditorCompileResults: Info [4012.53] Compile of MP_ServerBrowser successful! [in 94 ms] (/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser)
+[2016.10.18-17.53.36:885][969]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.10.18-17.53.36:977][969]BlueprintEditorCompileResults: Info [4273.25] Compile of MP_ServerBrowser successful! [in 91 ms] (/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser)
+[2016.10.18-17.58.28:054][970]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.017
+[2016.10.18-17.58.28:056][970]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser] ([1] browsable assets)...
+[2016.10.18-17.58.28:056][970]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser]
+[2016.10.18-17.58.28:092][970]LogSavePackage: Save=29.56ms
+[2016.10.18-17.58.28:092][970]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowser_Auto6909497DD4291E040BAC62CA14DE35142.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto6.uasset'
+[2016.10.18-17.58.28:093][970]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto6.uasset
+[2016.10.18-17.58.28:093][970]LogFileHelpers: Auto-saving content packages took 0.039
+[2016.10.18-18.11.26:774][987]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.019
+[2016.10.18-18.11.26:776][987]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser] ([1] browsable assets)...
+[2016.10.18-18.11.26:776][987]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser]
+[2016.10.18-18.11.26:824][987]LogSavePackage: Save=41.55ms
+[2016.10.18-18.11.26:824][987]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowser_Auto72275CCDA48FEA362C62E308A017390EB.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto7.uasset'
+[2016.10.18-18.11.26:825][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto7.uasset
+[2016.10.18-18.11.26:825][987]LogFileHelpers: Auto-saving content packages took 0.050
+[2016.10.18-18.15.43:112][244]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.10.18-18.15.43:216][244]BlueprintEditorCompileResults: Info [5599.46] Compile of MP_ServerBrowser successful! [in 104 ms] (/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser)
+[2016.10.18-18.21.27:518][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.019
+[2016.10.18-18.21.27:519][ 79]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser] ([1] browsable assets)...
+[2016.10.18-18.21.27:519][ 79]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser]
+[2016.10.18-18.21.27:558][ 79]LogSavePackage: Save=33.83ms
+[2016.10.18-18.21.27:558][ 79]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowser_Auto88FBDD7E64E5021A97026F3A3CC082C13.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto8.uasset'
+[2016.10.18-18.21.27:561][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto8.uasset
+[2016.10.18-18.21.27:561][ 79]LogFileHelpers: Auto-saving content packages took 0.042
+[2016.10.18-18.32.02:241][819]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.019
+[2016.10.18-18.32.02:242][819]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser] ([1] browsable assets)...
+[2016.10.18-18.32.02:242][819]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser]
+[2016.10.18-18.32.02:296][819]LogSavePackage: Save=46.93ms
+[2016.10.18-18.32.02:296][819]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowser_Auto96FE5058744ED60E65956BFABAF4F3199.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto9.uasset'
+[2016.10.18-18.32.02:297][819]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto9.uasset
+[2016.10.18-18.32.02:297][819]LogFileHelpers: Auto-saving content packages took 0.056
+[2016.10.18-19.01.22:549][294]BlueprintLog: New page: Compile MP_ServerBrowser
+[2016.10.18-19.01.22:662][294]BlueprintEditorCompileResults: Info [8338.86] Compile of MP_ServerBrowser successful! [in 112 ms] (/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.MP_ServerBrowser)
+[2016.10.18-19.01.49:648][445]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.016
+[2016.10.18-19.01.49:650][445]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser] ([1] browsable assets)...
+[2016.10.18-19.01.49:650][445]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser]
+[2016.10.18-19.01.49:695][445]LogSavePackage: Save=37.92ms
+[2016.10.18-19.01.49:695][445]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowser_Auto0BAA66ECB456599A9FA7058929C83653C.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto0.uasset'
+[2016.10.18-19.01.49:696][445]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/Autosaves/Game/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser_Auto0.uasset
+[2016.10.18-19.01.49:696][445]LogFileHelpers: Auto-saving content packages took 0.048
+[2016.10.18-20.03.50:684][899]LogSavePackage: Save=36.26ms
+[2016.10.18-20.03.50:684][899]LogSavePackage: Moving '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Saved/MP_ServerBrowser1049385941FB2742686065AB329C2951.tmp' to '../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.uasset'
+[2016.10.18-20.03.50:713][899]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/gerardo/Documents/GitHub/UnrealMenu/UnrealMenu/Content/Blueprints/MainMenu/Multiplayer/MP_ServerBrowser.uasset
+[2016.10.18-20.03.58:463][435]Cmd: QUIT_EDITOR
+[2016.10.18-20.03.59:687][435]LogExit: Preparing to exit.
+[2016.10.18-20.04.01:977][435]LogExit: Editor shut down
+[2016.10.18-20.04.01:977][435]LogExit: Transaction tracking system shut down
+[2016.10.18-20.04.04:333][435]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.18-20.04.04:333][435]LogExit: Object subsystem successfully closed.
+[2016.10.18-20.04.04:713][435]LogD3D11RHI: Shutdown
+[2016.10.18-20.04.04:746][435]LogD3D11RHI: CleanupD3DDevice
+[2016.10.18-20.04.05:156][435]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.18-20.04.06:149][435]LogModuleManager: Shutting down and abandoning module SequencerWidgets (217)
+[2016.10.18-20.04.06:149][435]LogModuleManager: Shutting down and abandoning module BlueprintGraph (216)
+[2016.10.18-20.04.06:149][435]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (215)
+[2016.10.18-20.04.06:156][435]LogModuleManager: Shutting down and abandoning module CrashTracker (214)
+[2016.10.18-20.04.06:156][435]LogModuleManager: Shutting down and abandoning module SceneOutliner (213)
+[2016.10.18-20.04.06:156][435]LogModuleManager: Shutting down and abandoning module WidgetCarousel (212)
+[2016.10.18-20.04.06:207][435]LogModuleManager: Shutting down and abandoning module AddContentDialog (211)
+[2016.10.18-20.04.06:296][435]LogModuleManager: Shutting down and abandoning module GameplayTags (210)
+[2016.10.18-20.04.06:296][435]LogModuleManager: Shutting down and abandoning module EditorWidgets (209)
+[2016.10.18-20.04.06:296][435]LogModuleManager: Shutting down and abandoning module CollectionManager (208)
+[2016.10.18-20.04.06:344][435]LogModuleManager: Shutting down and abandoning module StatsViewer (207)
+[2016.10.18-20.04.06:369][435]LogModuleManager: Shutting down and abandoning module FoliageEdit (206)
+[2016.10.18-20.04.06:374][435]LogModuleManager: Shutting down and abandoning module LandscapeEditor (205)
+[2016.10.18-20.04.06:388][435]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (204)
+[2016.10.18-20.04.06:388][435]LogModuleManager: Shutting down and abandoning module ActorPickerMode (203)
+[2016.10.18-20.04.06:388][435]LogModuleManager: Shutting down and abandoning module GeometryMode (202)
+[2016.10.18-20.04.06:388][435]LogModuleManager: Shutting down and abandoning module TextureAlignMode (201)
+[2016.10.18-20.04.06:388][435]LogModuleManager: Shutting down and abandoning module BspMode (200)
+[2016.10.18-20.04.06:400][435]LogModuleManager: Shutting down and abandoning module HardwareSurvey (199)
+[2016.10.18-20.04.06:403][435]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (198)
+[2016.10.18-20.04.06:403][435]LogModuleManager: Shutting down and abandoning module SequenceRecorder (197)
+[2016.10.18-20.04.06:409][435]LogModuleManager: Shutting down and abandoning module AutomationWorker (196)
+[2016.10.18-20.04.06:409][435]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (195)
+[2016.10.18-20.04.06:435][435]LogModuleManager: Shutting down and abandoning module PlacementMode (194)
+[2016.10.18-20.04.06:449][435]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (193)
+[2016.10.18-20.04.06:551][435]LogModuleManager: Shutting down and abandoning module CharacterAI (192)
+[2016.10.18-20.04.06:551][435]LogModuleManager: Shutting down and abandoning module SmartSnapping (191)
+[2016.10.18-20.04.06:551][435]LogModuleManager: Shutting down and abandoning module SessionServices (190)
+[2016.10.18-20.04.06:551][435]LogModuleManager: Shutting down and abandoning module ViewportSnapping (189)
+[2016.10.18-20.04.06:552][435]LogModuleManager: Shutting down and abandoning module LogVisualizer (188)
+[2016.10.18-20.04.06:595][435]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (187)
+[2016.10.18-20.04.06:600][435]LogModuleManager: Shutting down and abandoning module IntroTutorials (186)
+[2016.10.18-20.04.06:605][435]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (185)
+[2016.10.18-20.04.06:605][435]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (184)
+[2016.10.18-20.04.06:615][435]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (183)
+[2016.10.18-20.04.06:615][435]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (182)
+[2016.10.18-20.04.07:253][435]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (181)
+[2016.10.18-20.04.07:335][435]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (180)
+[2016.10.18-20.04.07:335][435]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (179)
+[2016.10.18-20.04.07:335][435]LogModuleManager: Shutting down and abandoning module MergeActors (178)
+[2016.10.18-20.04.07:413][435]LogModuleManager: Shutting down and abandoning module SizeMap (177)
+[2016.10.18-20.04.07:413][435]LogModuleManager: Shutting down and abandoning module TreeMap (176)
+[2016.10.18-20.04.07:503][435]LogModuleManager: Shutting down and abandoning module ReferenceViewer (175)
+[2016.10.18-20.04.07:524][435]LogModuleManager: Shutting down and abandoning module LocalizationService (174)
+[2016.10.18-20.04.07:540][435]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (173)
+[2016.10.18-20.04.07:550][435]LogModuleManager: Shutting down and abandoning module HardwareTargeting (172)
+[2016.10.18-20.04.07:550][435]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (171)
+[2016.10.18-20.04.07:560][435]LogModuleManager: Shutting down and abandoning module UndoHistory (170)
+[2016.10.18-20.04.07:566][435]LogModuleManager: Shutting down and abandoning module UserFeedback (169)
+[2016.10.18-20.04.07:566][435]LogModuleManager: Shutting down and abandoning module XmlParser (168)
+[2016.10.18-20.04.07:572][435]LogModuleManager: Shutting down and abandoning module Blutility (167)
+[2016.10.18-20.04.07:585][435]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (166)
+[2016.10.18-20.04.07:595][435]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (165)
+[2016.10.18-20.04.07:595][435]LogModuleManager: Shutting down and abandoning module InputBindingEditor (164)
+[2016.10.18-20.04.07:605][435]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (163)
+[2016.10.18-20.04.07:605][435]LogModuleManager: Shutting down and abandoning module SettingsEditor (162)
+[2016.10.18-20.04.07:633][435]LogModuleManager: Shutting down and abandoning module ProjectLauncher (161)
+[2016.10.18-20.04.07:649][435]LogModuleManager: Shutting down and abandoning module SessionFrontend (160)
+[2016.10.18-20.04.07:675][435]LogModuleManager: Shutting down and abandoning module ProfilerClient (159)
+[2016.10.18-20.04.07:685][435]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (158)
+[2016.10.18-20.04.07:685][435]LogModuleManager: Shutting down and abandoning module DeviceManager (157)
+[2016.10.18-20.04.07:741][435]LogModuleManager: Shutting down and abandoning module AutomationController (156)
+[2016.10.18-20.04.07:750][435]LogModuleManager: Shutting down and abandoning module AutomationWindow (155)
+[2016.10.18-20.04.07:768][435]LogModuleManager: Shutting down and abandoning module Layers (154)
+[2016.10.18-20.04.07:784][435]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (153)
+[2016.10.18-20.04.07:784][435]LogModuleManager: Shutting down and abandoning module DetailCustomizations (152)
+[2016.10.18-20.04.07:803][435]LogModuleManager: Shutting down and abandoning module PackagesDialog (151)
+[2016.10.18-20.04.07:803][435]LogModuleManager: Shutting down and abandoning module Persona (150)
+[2016.10.18-20.04.07:831][435]LogModuleManager: Shutting down and abandoning module Kismet (149)
+[2016.10.18-20.04.07:872][435]LogModuleManager: Shutting down and abandoning module GraphEditor (148)
+[2016.10.18-20.04.07:872][435]LogModuleManager: Shutting down and abandoning module ClassViewer (147)
+[2016.10.18-20.04.07:892][435]LogModuleManager: Shutting down and abandoning module Toolbox (146)
+[2016.10.18-20.04.07:907][435]LogModuleManager: Shutting down and abandoning module ModuleUI (145)
+[2016.10.18-20.04.07:924][435]LogModuleManager: Shutting down and abandoning module MovieSceneTools (144)
+[2016.10.18-20.04.07:930][435]LogModuleManager: Shutting down and abandoning module OutputLog (143)
+[2016.10.18-20.04.07:943][435]LogModuleManager: Shutting down and abandoning module GammaUI (142)
+[2016.10.18-20.04.07:983][435]LogModuleManager: Shutting down and abandoning module Documentation (141)
+[2016.10.18-20.04.07:984][435]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (140)
+[2016.10.18-20.04.07:984][435]LogModuleManager: Shutting down and abandoning module AnalyticsET (139)
+[2016.10.18-20.04.07:984][435]LogModuleManager: Shutting down and abandoning module Analytics (138)
+[2016.10.18-20.04.07:984][435]LogModuleManager: Shutting down and abandoning module PortalServices (137)
+[2016.10.18-20.04.07:984][435]LogModuleManager: Shutting down and abandoning module PortalRpc (136)
+[2016.10.18-20.04.07:984][435]LogModuleManager: Shutting down and abandoning module MessagingRpc (135)
+[2016.10.18-20.04.07:984][435]LogModuleManager: Shutting down and abandoning module GameplayDebugger (134)
+[2016.10.18-20.04.08:006][435]LogModuleManager: Shutting down and abandoning module AITestSuite (133)
+[2016.10.18-20.04.08:014][435]LogModuleManager: Shutting down and abandoning module AIModule (132)
+[2016.10.18-20.04.08:014][435]LogModuleManager: Shutting down and abandoning module ProfilerService (131)
+[2016.10.18-20.04.08:081][435]LogModuleManager: Shutting down and abandoning module TaskGraph (130)
+[2016.10.18-20.04.08:093][435]LogModuleManager: Shutting down and abandoning module SubstanceEditor (129)
+[2016.10.18-20.04.08:120][435]LogModuleManager: Shutting down and abandoning module SlateRemote (128)
+[2016.10.18-20.04.08:120][435]LogModuleManager: Shutting down and abandoning module SteamVRController (127)
+[2016.10.18-20.04.08:120][435]LogModuleManager: Shutting down and abandoning module SteamVR (126)
+[2016.10.18-20.04.08:120][435]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (125)
+[2016.10.18-20.04.08:120][435]LogModuleManager: Shutting down and abandoning module OculusLibrary (124)
+[2016.10.18-20.04.08:120][435]LogModuleManager: Shutting down and abandoning module OculusInput (123)
+[2016.10.18-20.04.08:120][435]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (122)
+[2016.10.18-20.04.08:120][435]LogModuleManager: Shutting down and abandoning module CableComponent (121)
+[2016.10.18-20.04.08:120][435]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (120)
+[2016.10.18-20.04.08:120][435]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (119)
+[2016.10.18-20.04.08:157][435]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2016.10.18-20.04.08:157][435]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2016.10.18-20.04.08:157][435]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2016.10.18-20.04.08:157][435]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.10.18-20.04.08:157][435]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.10.18-20.04.08:180][435]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.10.18-20.04.08:180][435]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.10.18-20.04.08:193][435]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.10.18-20.04.08:218][435]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.10.18-20.04.08:218][435]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.10.18-20.04.08:236][435]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.10.18-20.04.08:363][435]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.10.18-20.04.08:379][435]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.10.18-20.04.08:404][435]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.10.18-20.04.08:404][435]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.10.18-20.04.08:420][435]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.10.18-20.04.08:420][435]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.10.18-20.04.08:440][435]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2016.10.18-20.04.08:465][435]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.10.18-20.04.08:475][435]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.10.18-20.04.08:483][435]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.10.18-20.04.08:492][435]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2016.10.18-20.04.08:493][435]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2016.10.18-20.04.08:535][435]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
+[2016.10.18-20.04.08:635][435]LogModuleManager: Shutting down and abandoning module SubstanceCore (94)
+[2016.10.18-20.04.08:681][435]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.18-20.04.08:681][435]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.18-20.04.08:704][435]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.18-20.04.08:704][435]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.18-20.04.08:704][435]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.18-20.04.08:798][435]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.18-20.04.08:798][435]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.18-20.04.08:818][435]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.18-20.04.08:818][435]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.18-20.04.08:818][435]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.18-20.04.08:824][435]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.18-20.04.08:824][435]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.18-20.04.08:828][435]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.18-20.04.08:871][435]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.18-20.04.08:871][435]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.18-20.04.08:883][435]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.18-20.04.08:883][435]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.18-20.04.08:883][435]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.18-20.04.08:883][435]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.18-20.04.08:943][435]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.18-20.04.08:943][435]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.18-20.04.08:943][435]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.18-20.04.08:973][435]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.18-20.04.08:973][435]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.18-20.04.08:994][435]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.18-20.04.08:994][435]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.18-20.04.08:994][435]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.18-20.04.08:994][435]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.18-20.04.08:994][435]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.18-20.04.08:994][435]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.18-20.04.08:994][435]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.18-20.04.09:131][435]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.18-20.04.09:131][435]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.18-20.04.09:147][435]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.18-20.04.09:158][435]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.18-20.04.09:226][435]LogDerivedDataCache: Shutdown
+[2016.10.18-20.04.09:226][435]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.18-20.04.09:248][435]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.18-20.04.09:254][435]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.18-20.04.09:268][435]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.18-20.04.09:274][435]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.18-20.04.09:274][435]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.18-20.04.09:283][435]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.18-20.04.09:289][435]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.18-20.04.09:299][435]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.18-20.04.09:299][435]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.18-20.04.09:299][435]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.18-20.04.09:299][435]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.18-20.04.09:314][435]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.18-20.04.09:324][435]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.18-20.04.09:325][435]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.18-20.04.09:325][435]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.18-20.04.09:373][435]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.10.18-20.04.09:380][435]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.10.18-20.04.09:380][435]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.18-20.04.09:380][435]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.18-20.04.09:380][435]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.18-20.04.09:380][435]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.18-20.04.09:380][435]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.18-20.04.09:394][435]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.18-20.04.09:394][435]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.18-20.04.09:394][435]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.18-20.04.09:394][435]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.18-20.04.09:394][435]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.18-20.04.09:394][435]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.18-20.04.09:394][435]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.18-20.04.09:394][435]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.10.18-20.04.09:402][435]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.10.18-20.04.09:409][435]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.10.18-20.04.09:419][435]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.10.18-20.04.09:419][435]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.10.18-20.04.09:424][435]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.10.18-20.04.09:424][435]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.10.18-20.04.09:424][435]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.10.18-20.04.09:431][435]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.10.18-20.04.13:936][435]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.10.18-20.04.14:052][435]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.18-20.04.14:135][435]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.18-20.04.14:135][435]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.18-20.04.14:315][435]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.18-20.04.14:354][435]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.18-20.04.14:354][435]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.18-20.04.14:664][435]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.18-20.04.14:672][435]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.18-20.04.14:672][435]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.18-20.04.14:672][435]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.18-20.04.14:672][435]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.18-20.04.14:672][435]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.18-20.04.14:707][435]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.18-20.04.14:761][435]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.18-20.04.14:805][435]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.18-20.04.14:837][435]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.18-20.04.15:699][435]LogExit: Exiting.
+[2016.10.18-20.04.15:981][435]Log file closed, 10/18/16 15:04:15
